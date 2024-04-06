@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.word-spacing {
+  word-spacing: 0.5rem;
+}
+
+:root {
+  --bg-color: black;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
