@@ -1,12 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Profile from "./Profile";
+import Container from "./Container";
 
 const Heading = () => {
   return (
-    <div className="flex md:flex-row sm:flex-col sm:gap-2 items-center justify-between fixed z-10 top-0 w-[768px] bg-color">
-      <Profile />
-      <Navbar />
+    <div className="sticky py-3 z-10 top-0 bg-zinc-800">
+      <Container>
+        <div className="flex justify-between ">
+          <Profile />
+          <Navbar />
+        </div>
+      </Container>
       {/* <div className="relative md:hidden sm:block">
         <div>
           <svg

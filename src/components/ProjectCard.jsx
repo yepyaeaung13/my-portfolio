@@ -1,19 +1,25 @@
 import React from "react";
 
-const ProjectCardRight = ({ text, title, name, src, className, tech }) => {
+const ProjectCard = ({ project }) => {
   return (
-    <div className="flex justify-around items-start gap-5">
-      <div className="w-[50%]">
-        <h1 className="text-blue-600 font-bold"> {title}</h1>
-        <h2 className="font-bold">{name}</h2>
-        <p className="text-sm">{text}</p>
-        <p className="mb-5 mt-3 font-bold text-sm uppercase word-spacing">
-          {tech}
+    <div className="flex flex-col gap-[1vw] border border-zinc-700 rounded-[0.5vw] p-[1vw]">
+      <div className="flex justify-center">
+        <iframe
+          src="http://localhost:5173/#portfolio"
+          frameBorder="0"
+          className="w-[100%]"
+        ></iframe>
+      </div>
+      <div className="flex flex-col gap-[0.5vw] mt-auto">
+        <h2 className="font-bold text-[1.2vw]">{project.title}</h2>
+        <p className="text-[1vw]">{project.description}</p>
+        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold text-[1vw] uppercase word-spacing">
+          {project.tech}
         </p>
-        <div className="flex gap-2">
+        <div className="flex gap-[1.5vw]">
           <a
-            href=""
-            className="flex items-center gap-1 text-xs bg-gradient-to-br from-blue-600 to-indigo-900/70 px-2.5 py-2 rounded-sm"
+            href={project.code}
+            className="flex items-center gap-[0.3vw] text-[1vw] hover:underline"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,21 +32,15 @@ const ProjectCardRight = ({ text, title, name, src, className, tech }) => {
                 fill="#ffffff"
               />
             </svg>
-            <span>Code</span>
+            <span className="text-[1vw]">Code</span>
           </a>
-          <a
-            href=""
-            className="text-xs bg-gradient-to-br from-blue-600 to-indigo-900/70 px-2.5 py-2 rounded-sm"
-          >
-            SEE DEMO
+          <a href={project.url} className="text-[1vw] hover:underline">
+            See Demo {">>"}
           </a>
         </div>
-      </div>
-      <div className="">
-        <img src={src} alt="project photo" className={className} />
       </div>
     </div>
   );
 };
 
-export default ProjectCardRight;
+export default ProjectCard;
