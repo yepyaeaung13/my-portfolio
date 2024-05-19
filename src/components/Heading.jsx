@@ -5,9 +5,9 @@ import Container from "./Container";
 
 const Heading = () => {
   return (
-    <div className="sticky py-3 z-10 top-0 bg-zinc-800">
+    <div className="sticky px-[1.5vw] py-[1vw] z-10 top-0 bg-zinc-800">
       <Container>
-        <div className="flex justify-between ">
+        <div className="flex flex-col md:flex-row md:justify-between items-center gap-[1.2vh]">
           <Profile />
           <Navbar />
         </div>

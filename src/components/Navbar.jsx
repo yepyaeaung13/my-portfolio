@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <ul className="hidden md:flex gap-[3vw] text-white text-[1.1vw]">
+      <ul className="flex gap-[3vw] text-white md:text-[1.1vw] text-[2.5vw]">
         {nav.map((el, idx) => {
           return (
             <li key={idx}>
@@ -34,7 +34,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <div className="md:hidden">
+      <div className="hidden">
         {!isOpen ? (
           <button onClick={toggleOpen}>
             <svg

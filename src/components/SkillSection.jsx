@@ -23,37 +23,41 @@ const SkillSection = () => {
         className="text-white flex flex-col justify-center gap-[2vw]"
         id="skills"
       >
-        <h1 className="text-center text-[1.5vw] font-bold font-serif my-[5vw]">
+        <h1 className="text-center md:text-[1.5vw] text-[3vw] font-bold font-serif my-[5vw]">
           SKILLS
         </h1>
         <div className="flex flex-col gap-[5vw]">
-          <div className="flex gap-[2vw] justify-between">
+          <div className="flex flex-wrap md:gap-[2vw] gap-[10vw] justify-center md:justify-between">
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={htmlPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">HTML5</p>
+              <img src={htmlPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
+              <p className="md:text-[1vw] text-[2vw]">HTML5</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={cssPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">CSS3</p>
+              <img src={cssPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
+              <p className="md:text-[1vw] text-[2vw]">CSS3</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={tailwindcssPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">TailwindCSS</p>
+              <img
+                src={tailwindcssPic}
+                alt="icon"
+                className="md:w-[2.5vw] w-[5vw]"
+              />
+              <p className="md:text-[1vw] text-[2vw]">TailwindCSS</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={jsPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">JAVASCRIPT</p>
+              <img src={jsPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
+              <p className="md:text-[1vw] text-[2vw]">JAVASCRIPT</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={reactPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">ReactJS</p>
+              <img src={reactPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
+              <p className="md:text-[1vw] text-[2vw]">ReactJS</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 180 180"
                 width={50}
-                className="w-[2.5vw]"
+                className="md:w-[2.5vw] w-[5vw]"
               >
                 <mask
                   height={180}
@@ -111,31 +115,31 @@ const SkillSection = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="text-[1vw]">NextJS</p>
+              <p className="md:text-[1vw] text-[2vw]">NextJS</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={phpPic} alt="icon" className="w-[3vw]" />
-              <p className="text-[1vw]">PHP</p>
+              <img src={phpPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
+              <p className="md:text-[1vw] text-[2vw]">PHP</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={mysqlPic} alt="icon" className="w-[3vw]" />
-              <p className="text-[1vw]">SQL</p>
+              <img src={mysqlPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
+              <p className="md:text-[1vw] text-[2vw]">SQL</p>
             </div>
             <div className="flex flex-col gap-[1vw] items-center justify-end">
-              <img src={gitPic} alt="icon" className="w-[2.5vw]" />
-              <p className="text-[1vw]">Git</p>
+              <img src={gitPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
+              <p className="md:text-[1vw] text-[2vw]">Git</p>
             </div>
           </div>
-          <div className="flex gap-[1vw] flex-col mb-[15vh]">
-            <h1 className="text-[1.5vw]">Soft Skills</h1>
-            <div className="flex gap-[3vw]">
+          <div className="flex gap-[1vw] flex-col md:mb-[15vh] mb-[3vh] md:p-0 p-[2vw]">
+            <h1 className="md:text-[1.5vw] text-[3vw]">Soft Skills</h1>
+            <div className="flex flex-wrap gap-[3vw]">
               {softSkill.map((el, idx) => {
                 return (
                   <div className="flex items-center gap-[0.5vw]" key={idx}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
-                      className="w-[1vw]"
+                      className="md:w-[1vw] w-[2.5vw]"
                     >
                       {/*!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                       <path
@@ -143,7 +147,7 @@ const SkillSection = () => {
                         fill="white"
                       />
                     </svg>
-                    <p className="text-[1.2vw]">{el}</p>
+                    <p className="md:text-[1.2vw] text-[2.4vw]">{el}</p>
                   </div>
                 );
               })}

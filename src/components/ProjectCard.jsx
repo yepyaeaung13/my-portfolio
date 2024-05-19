@@ -11,15 +11,17 @@ const ProjectCard = ({ project }) => {
         ></iframe>
       </div>
       <div className="flex flex-col gap-[0.5vw] mt-auto">
-        <h2 className="font-bold text-[1.2vw]">{project.title}</h2>
-        <p className="text-[1vw]">{project.description}</p>
-        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold text-[1vw] uppercase word-spacing">
+        <h2 className="font-bold md:text-[1.2vw] text-[2.4vw]">
+          {project.title}
+        </h2>
+        <p className="md:text-[1vw] text-[2.5vw]">{project.description}</p>
+        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-[1vw] text-[2vw] uppercase word-spacing">
           {project.tech}
         </p>
         <div className="flex gap-[1.5vw]">
           <a
             href={project.code}
-            className="flex items-center gap-[0.3vw] text-[1vw] hover:underline"
+            className="flex items-center md:gap-[0.3vw] gap-[1vw] md:text-[1vw] text-[2vw] hover:underline"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,9 +34,12 @@ const ProjectCard = ({ project }) => {
                 fill="#ffffff"
               />
             </svg>
-            <span className="text-[1vw]">Code</span>
+            <span className="md:text-[1vw] text-[2.5vw]">Code</span>
           </a>
-          <a href={project.url} className="text-[1vw] hover:underline">
+          <a
+            href={project.url}
+            className="md:text-[1vw] text-[2.5vw] hover:underline"
+          >
             See Demo {">>"}
           </a>
         </div>
