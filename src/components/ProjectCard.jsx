@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
         <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-[1vw] text-[2vw] uppercase word-spacing">
           {project.tech}
         </p>
-        <div className="flex gap-[1.5vw]">
+        <div className="flex md:gap-[1.5vw] gap-[3vw] items-center">
           <a
             href={project.code}
             className="flex items-center md:gap-[0.3vw] gap-[1vw] md:text-[1vw] text-[2vw] hover:underline"
