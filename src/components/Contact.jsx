@@ -89,7 +89,7 @@ const Contact = () => {
               &copy; 2024 - Ye Pyae Aung, All rights reserved
             </p>
           </div>
-          <div className="flex items-center gap-[2vw]">
+          <div className="flex items-center md:gap-[2vw] gap-[4vw]">
             <a
               className=""
               target="_blank"
