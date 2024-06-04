@@ -1,6 +1,7 @@
 import React from "react";
-import profile from "../assets/profile-pic.png";
+import profile1 from "/hero.png";
 import Container from "./Container";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
@@ -11,9 +12,21 @@ const HeroSection = () => {
             <span className="text-white italic md:text-[1.5vw] text-[2vw] font-semibold">
               Hello, I'm Ye Pyae Aung
             </span>
-            <h1 className="text-white md:text-[3vw] text-[5vw] font-serif tracking-widest font-extrabold">
-              FRONTEND WEB
-              <br /> DEVELOPER
+            <h1 className="text-white w-[440px] h-32 md:text-[3vw] text-[5vw] font-serif tracking-widest font-extrabold">
+              <TypeAnimation
+                sequence={[
+                  // Same substring at the start will only be typed once, initially
+                  "",
+                  2000,
+                  "FRONTEND WEB DEVELOPER",
+                  5000,
+                ]}
+                speed={40}
+                style={{
+                  width: 450,
+                }}
+                repeat={Infinity}
+              />
             </h1>
           </div>
           <div>
@@ -27,9 +40,9 @@ const HeroSection = () => {
         </div>
         <div className="w-[40vw] flex justify-center">
           <img
-            src={profile}
+            src={profile1}
             alt="profile picture"
-            className="md:w-[15vw] w-[25vw]"
+            className="md:w-[30vw] w-[25vw]"
           />
         </div>
       </div>

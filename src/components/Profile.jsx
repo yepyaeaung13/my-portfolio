@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "../assets/profile-pic.png";
+import profilePhoto from "/profile-pic.png";
 const Profile = () => {
   return (
     <div className="flex items-center gap-[1vw]">

@@ -4,23 +4,23 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="flex flex-col gap-[1vw] border border-zinc-700 rounded-[0.5vw] p-[1vw]">
       <div className="flex justify-center">
-        <iframe
-          src="http://localhost:5173/#portfolio"
-          frameBorder="0"
-          className="w-[100%]"
-        ></iframe>
+        <img
+          src={project.img}
+          className="w-full h-60 object-cover object-center rounded-md"
+        />
       </div>
       <div className="flex flex-col gap-[0.5vw] mt-auto">
         <h2 className="font-bold md:text-[1.2vw] text-[2.4vw]">
           {project.title}
         </h2>
         <p className="md:text-[1vw] text-[2.5vw]">{project.description}</p>
-        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-[1vw] text-[2vw] uppercase word-spacing">
+        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-[1vw] text-[2vw] word-spacing">
           {project.tech}
         </p>
         <div className="flex md:gap-[1.5vw] gap-[3vw] items-center">
           <a
             href={project.code}
+            target="_blank"
             className="flex items-center md:gap-[0.3vw] gap-[1vw] md:text-[1vw] text-[2vw] hover:underline"
           >
             <svg
@@ -39,6 +39,7 @@ const ProjectCard = ({ project }) => {
           <a
             href={project.url}
             className="md:text-[1vw] text-[2.5vw] hover:underline"
+            target="_blank"
           >
             See Demo {">>"}
           </a>

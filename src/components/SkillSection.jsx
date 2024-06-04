@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import htmlPic from "../assets/html.png";
-import cssPic from "../assets/css-3.png";
-import tailwindcssPic from "../assets/tailwindcss-logo.svg";
-import jsPic from "../assets/js.png";
-import reactPic from "../assets/react.svg";
-import phpPic from "../assets/php.svg";
-import mysqlPic from "../assets/mySQL.png";
-import gitPic from "../assets/git.png";
+import htmlPic from "/html.png";
+import cssPic from "/css-3.png";
+import tailwindcssPic from "/tailwindcss-logo.svg";
+import jsPic from "/js.png";
+import reactPic from "/react.svg";
+import phpPic from "/php.svg";
+import mysqlPic from "/mySQL.png";
+import gitPic from "/git.png";
 import Container from "./Container";
 
 const SkillSection = () => {

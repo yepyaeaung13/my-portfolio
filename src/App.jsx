@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Heading />
-      <div className="md:h-[10vh] sm:h-[5vh]" id="home"></div>
       <HeroSection />
       <div className="bg-zinc-800">
         <AboutMe />
