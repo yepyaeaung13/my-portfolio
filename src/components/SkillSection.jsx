@@ -166,16 +166,16 @@ const SkillSection = () => {
               <p className="md:text-sm text-xs">Git</p>
             </div>
           </div>
-          <div className="flex gap-[1vw] flex-col md:mb-[15vh] mb-[3vh] md:p-0 p-[2vw]">
+          <div className="flex md:gap-8 gap-5 flex-col md:mb-[15vh] mb-[3vh] md:p-0 p-[2vw]">
             <h1 className="md:text-sm text-xs font-bold">Soft Skills</h1>
-            <div className="flex flex-wrap gap-[3vw]">
+            <div className="flex flex-wrap md:gap-10 gap-3">
               {softSkill.map((el, idx) => {
                 return (
-                  <div className="flex items-center gap-[0.5vw]" key={idx}>
+                  <div className="flex items-center gap-1" key={idx}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
-                      className="md:w-[1vw] w-[2.5vw]"
+                      className="md:w-3 w-2.5"
                     >
                       {/*!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                       <path
