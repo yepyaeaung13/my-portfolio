@@ -66,9 +66,9 @@ const Portfolio = () => {
       description:
         "Features - Home section,room section,facilities section, contact section",
       tech: "HTML TailwindCSS reactJS",
-      code: "https://github.com/yepyaeaung13/e-shop-nextjs",
-      url: "https://e-shop-nextjs-eta.vercel.app/",
-      img: hotelPhoto,
+      code: "https://github.com/yepyaeaung13/react-hotel-landing-page",
+      url: "https://react-hotel-landing-page.vercel.app/",
+      img: "/hotel-cover.jpg",
     },
   ]);
   return (
