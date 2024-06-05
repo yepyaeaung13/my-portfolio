@@ -77,7 +77,7 @@ const Portfolio = () => {
         className="text-white flex flex-col md:mb-[15vh] mb-[5vh] gap-[3vw] md:p-0 px-[2vw]"
         id="portfolio"
       >
-        <h1 className="text-center md:text-[1.5vw] text-[3vw] md:my-[10vh] my-[3vh] font-bold font-serif">
+        <h1 className="text-center md:text-md text-md md:my-[10vh] my-[3vh] font-bold font-serif">
           PORTFOLIO
         </h1>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-[-10vh] md:gap-[2vw] gap-[4vw]">

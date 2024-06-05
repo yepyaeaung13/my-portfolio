@@ -8,17 +8,17 @@ const Contact = () => {
         className="mt-auto flex flex-col gap-[2vh] py-[2vh] text-white"
         id="contact"
       >
-        <h1 className="text-center md:text-md text-xl font-serif font-bold md:my-[10vh] my-[2vh]">
+        <h1 className="text-center md:text-md text-md font-serif font-bold md:my-[10vh] my-[2vh]">
           CONTACT
         </h1>
         <div className="flex gap-5 justify-between">
           <div className="flex flex-col gap-5">
-            <h1 className="md:text-md text-xl">Drop Me a Message</h1>
+            <h1 className="md:text-md text-md">Drop Me a Message</h1>
             <p className="tracking-widest md:text-md text-sm italic">
               let's make something amazing together.
             </p>
-            <div className="flex gap-3">
-              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
+            <div className="flex flex-wrap gap-3">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const Contact = () => {
                 </button>
                 <span>+95 989 862 6060</span>
               </div>
-              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Contact = () => {
                 </button>
                 <span>yepyae.webdev@gmail.com</span>
               </div>
-              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
         <footer className="flex justify-between items-center border-t pt-5">
           <div>
-            <p className="md:text-md text-xs">
+            <p className="md:text-sm text-[10px]">
               &copy; 2024 - Ye Pyae Aung, All rights reserved
             </p>
           </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <ul className="flex gap-[3vw] text-white md:text-[1.1vw] text-[2.5vw]">
+      <ul className="flex gap-[3vw] text-white md:text-md text-sm">
         {nav.map((el, idx) => {
           return (
             <li key={idx}>

@@ -14,14 +14,12 @@ const ProjectCard = ({ project }) => {
         />
       </div>
       <div className="flex flex-col gap-[0.5vw] mt-auto">
-        <h2 className="font-bold md:text-[1.2vw] text-[2.4vw]">
-          {project.title}
-        </h2>
-        <p className="md:text-[1vw] text-[2.5vw]">{project.description}</p>
-        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-[1vw] text-[2vw] word-spacing">
+        <h2 className="font-bold md:text-sm text-sm">{project.title}</h2>
+        <p className="md:text-sm text-xs">{project.description}</p>
+        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-sm text-xs word-spacing">
           {project.tech}
         </p>
-        <div className="flex md:gap-[1.5vw] gap-[3vw] items-center">
+        <div className="flex md:gap-[1.5vw] gap-[3vw]">
           <a
             href={project.code}
             target="_blank"
@@ -30,7 +28,7 @@ const ProjectCard = ({ project }) => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
-              className="w-4 -translate-y-[1px]"
+              className="md:w-4 w-3"
             >
               {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
               <path
@@ -38,11 +36,11 @@ const ProjectCard = ({ project }) => {
                 fill="#ffffff"
               />
             </svg>
-            <span className="md:text-[1vw] text-[2.5vw]">Code</span>
+            <span className="md:text-md text-xs">Code</span>
           </a>
           <a
             href={project.url}
-            className="md:text-[1vw] text-[2.5vw] hover:underline"
+            className="md:text-sm text-xs hover:underline"
             target="_blank"
           >
             See Demo {">>"}

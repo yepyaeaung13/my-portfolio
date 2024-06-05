@@ -29,10 +29,12 @@ const AboutMe = () => {
         <div
           data-aos="fade-up-right"
           data-aos-duration="3000"
-          className="flex text-sm text-white flex-col gap-4 px-5"
+          className="flex md:text-sm text-xs text-white flex-col gap-4 px-5"
         >
           <div>
-            <h1 className="text-xl font-bold font-serif">Programming Skills</h1>
+            <h1 className="md:text-xl text-sm font-bold font-serif">
+              Programming Skills
+            </h1>
           </div>
           <div>
             <h2>HTML</h2>
@@ -86,10 +88,10 @@ const AboutMe = () => {
           data-aos-duration="3000"
           className="text-white px-5 flex flex-col gap-5"
         >
-          <h1 className="font-bold md:text-[1.5vw] text-[3vw] tracking-widest font-serif">
+          <h1 className="font-bold md:text-lg text-sm tracking-widest font-serif">
             ABOUT ME
           </h1>
-          <p className="md:text-[1.2vw] text-[2.4vw]" style={{ lineHeight: 2 }}>
+          <p className="md:text-lg text-xs" style={{ lineHeight: 2 }}>
             Hello!, I'm a passionate Front-End Developer with expertise in HTML,
             CSS, Tailwind CSS, Bootstrap, JavaScript, and ReactJS. With a keen
             eye for design and a love for clean, efficient code, I bring a
