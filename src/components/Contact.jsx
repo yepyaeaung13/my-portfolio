@@ -14,11 +14,11 @@ const Contact = () => {
         <div className="flex gap-5 justify-between">
           <div className="flex flex-col gap-5">
             <h1 className="md:text-md text-xl">Drop Me a Message</h1>
-            <p className="tracking-widest md:text-md text-lg italic">
+            <p className="tracking-widest md:text-md text-sm italic">
               let's make something amazing together.
             </p>
-            <div className="flex gap-[2vw]">
-              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
+            <div className="flex gap-3">
+              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const Contact = () => {
                 </button>
                 <span>+95 989 862 6060</span>
               </div>
-              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Contact = () => {
                 </button>
                 <span>yepyae.webdev@gmail.com</span>
               </div>
-              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-xs items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -85,11 +85,11 @@ const Contact = () => {
         </div>
         <footer className="flex justify-between items-center border-t pt-5">
           <div>
-            <p className="md:text-md text-sm">
+            <p className="md:text-md text-xs">
               &copy; 2024 - Ye Pyae Aung, All rights reserved
             </p>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center md:gap-5 gap-3">
             <a
               className=""
               target="_blank"
@@ -98,7 +98,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
-                className="md:w-4 w-3"
+                className="md:w-4 w-2"
               >
                 <path
                   d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
@@ -114,7 +114,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="md:w-6 w-4"
+                className="md:w-6 w-2"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -127,7 +127,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="md:w-6 w-4"
+                className="md:w-6 w-2"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -144,7 +144,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
-                className="md:w-6 w-4"
+                className="md:w-6 w-2"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
