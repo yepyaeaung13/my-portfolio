@@ -44,7 +44,7 @@ const Portfolio = () => {
       id: Date.now(),
       title: "e shop",
       description:
-        "Features - home page,products page contact page and cart page - add items,delete items,update qty,summary cart lists",
+        "Features - used fakestore api, home page,products page contact page and cart page - add items,delete items,update qty,summary cart lists",
       tech: "HTML TailwindCSS nextJS",
       code: "https://github.com/yepyaeaung13/e-shop-nextjs",
       url: "https://e-shop-nextjs-eta.vercel.app/",
