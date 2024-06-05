@@ -28,15 +28,27 @@ const SkillSection = () => {
         </h1>
         <div className="flex flex-col gap-[5vw]">
           <div className="flex flex-wrap md:gap-[2vw] gap-[10vw] justify-center md:justify-between">
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={htmlPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
               <p className="md:text-[1vw] text-[2vw]">HTML5</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={cssPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
               <p className="md:text-[1vw] text-[2vw]">CSS3</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img
                 src={tailwindcssPic}
                 alt="icon"
@@ -44,15 +56,27 @@ const SkillSection = () => {
               />
               <p className="md:text-[1vw] text-[2vw]">TailwindCSS</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={jsPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
               <p className="md:text-[1vw] text-[2vw]">JAVASCRIPT</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={reactPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
               <p className="md:text-[1vw] text-[2vw]">ReactJS</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 180 180"
@@ -117,15 +141,27 @@ const SkillSection = () => {
               </svg>
               <p className="md:text-[1vw] text-[2vw]">NextJS</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={phpPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
               <p className="md:text-[1vw] text-[2vw]">PHP</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={mysqlPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
               <p className="md:text-[1vw] text-[2vw]">SQL</p>
             </div>
-            <div className="flex flex-col gap-[1vw] items-center justify-end">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="flex flex-col gap-[1vw] items-center justify-end"
+            >
               <img src={gitPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
               <p className="md:text-[1vw] text-[2vw]">Git</p>
             </div>

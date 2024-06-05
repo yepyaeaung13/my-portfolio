@@ -26,7 +26,11 @@ const AboutMe = () => {
         className="flex flex-col md:flex-row gap-5 justify-between md:py-10 py-5"
         id="about"
       >
-        <div className="flex text-sm text-white flex-col gap-4 px-5">
+        <div
+          data-aos="fade-up-right"
+          data-aos-duration="3000"
+          className="flex text-sm text-white flex-col gap-4 px-5"
+        >
           <div>
             <h1 className="text-xl font-bold font-serif">Programming Skills</h1>
           </div>
@@ -77,7 +81,11 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="text-white px-5 flex flex-col gap-5">
+        <div
+          data-aos="fade-up-left"
+          data-aos-duration="3000"
+          className="text-white px-5 flex flex-col gap-5"
+        >
           <h1 className="font-bold md:text-[1.5vw] text-[3vw] tracking-widest font-serif">
             ABOUT ME
           </h1>

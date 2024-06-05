@@ -6,7 +6,10 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   return (
     <Container>
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-[10vw] md:my-[20vh] my-[8vh]">
+      <div
+        id="home"
+        className="flex flex-col-reverse md:flex-row items-center justify-center gap-[10vw] md:my-[20vh] my-[8vh]"
+      >
         <div className="flex flex-col gap-[1.5vw]">
           <div className="flex flex-col">
             <span className="text-white italic md:text-xl text-lg font-semibold">

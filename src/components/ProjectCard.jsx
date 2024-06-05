@@ -2,7 +2,11 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="flex flex-col gap-[1vw] border border-zinc-700 rounded-[0.5vw] p-[1vw]">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="flex flex-col gap-[1vw] border border-zinc-700 rounded-[0.5vw] p-[1vw]"
+    >
       <div className="flex justify-center">
         <img
           src={project.img}

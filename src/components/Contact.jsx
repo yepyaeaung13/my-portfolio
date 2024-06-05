@@ -8,17 +8,17 @@ const Contact = () => {
         className="mt-auto flex flex-col gap-[2vh] py-[2vh] text-white"
         id="contact"
       >
-        <h1 className="text-center md:text-[1.5vw] text-[3vw] font-serif font-bold md:my-[10vh] my-[2vh]">
+        <h1 className="text-center md:text-md text-xl font-serif font-bold md:my-[10vh] my-[2vh]">
           CONTACT
         </h1>
-        <div className="flex gap-[1.5vw] justify-between">
+        <div className="flex gap-5 justify-between">
           <div className="flex flex-col gap-5">
-            <h1 className="md:text-[1.5vw] text-[3vw]">Drop Me a Message</h1>
-            <p className="tracking-widest md:text-[1.2vw] text-[2.4vw] italic">
+            <h1 className="md:text-md text-xl">Drop Me a Message</h1>
+            <p className="tracking-widest md:text-md text-lg italic">
               let's make something amazing together.
             </p>
             <div className="flex gap-[2vw]">
-              <div className="flex md:gap-[0.5vw] gap-[1vw] md:text-[1.2vw] text-[2.4vw] items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Contact = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="md:w-[1.5vw] w-[3vw]"
+                    className="md:w-6 w-4"
                   >
                     <path
                       strokeLinecap="round"
@@ -37,7 +37,7 @@ const Contact = () => {
                 </button>
                 <span>+95 989 862 6060</span>
               </div>
-              <div className="flex md:gap-[0.5vw] gap-[1vw] md:text-[1.2vw] text-[2.4vw] items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Contact = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="md:w-[1.5vw] w-[3vw]"
+                    className="md:w-6 w-4"
                   >
                     <path
                       strokeLinecap="round"
@@ -56,7 +56,7 @@ const Contact = () => {
                 </button>
                 <span>yepyae.webdev@gmail.com</span>
               </div>
-              <div className="flex md:gap-[0.5vw] gap-[1vw] md:text-[1.2vw] text-[2.4vw] items-center">
+              <div className="flex md:gap-2 gap-1 md:text-md text-sm items-center">
                 <button className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ const Contact = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-[1.5vw]"
+                    className="md:w-6 w-4"
                   >
                     <path
                       strokeLinecap="round"
@@ -83,13 +83,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <footer className="flex justify-between items-center border-t pt-[1.5vw]">
+        <footer className="flex justify-between items-center border-t pt-5">
           <div>
-            <p className="md:text-[1.2vw] text-[2.4vw]">
+            <p className="md:text-md text-sm">
               &copy; 2024 - Ye Pyae Aung, All rights reserved
             </p>
           </div>
-          <div className="flex items-center md:gap-[2vw] gap-[4vw]">
+          <div className="flex items-center gap-5">
             <a
               className=""
               target="_blank"
@@ -98,7 +98,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
-                className="md:w-[1vw] w-[2vw]"
+                className="md:w-4 w-3"
               >
                 <path
                   d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
@@ -114,7 +114,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="md:w-[1.5vw] w-[3vw]"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -127,7 +127,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="md:w-[1.5vw] w-[3vw]"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -144,7 +144,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
-                className="md:w-[1.5vw] w-[3vw]"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
