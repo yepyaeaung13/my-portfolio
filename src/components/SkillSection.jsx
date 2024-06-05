@@ -23,7 +23,7 @@ const SkillSection = () => {
         className="text-white flex flex-col justify-center gap-[2vw]"
         id="skills"
       >
-        <h1 className="text-center md:text-[1.5vw] text-[3vw] font-bold font-serif my-[5vw]">
+        <h1 className="text-center md:text-md text-sm font-bold font-serif my-[5vw]">
           SKILLS
         </h1>
         <div className="flex flex-col gap-[5vw]">
@@ -34,7 +34,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={htmlPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
-              <p className="md:text-[1vw] text-[2vw]">HTML5</p>
+              <p className="md:text-sm text-xs">HTML5</p>
             </div>
             <div
               data-aos="fade-right"
@@ -42,7 +42,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={cssPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
-              <p className="md:text-[1vw] text-[2vw]">CSS3</p>
+              <p className="md:text-sm text-xs">CSS3</p>
             </div>
             <div
               data-aos="fade-right"
@@ -54,7 +54,7 @@ const SkillSection = () => {
                 alt="icon"
                 className="md:w-[2.5vw] w-[5vw]"
               />
-              <p className="md:text-[1vw] text-[2vw]">TailwindCSS</p>
+              <p className="md:text-sm text-xs">TailwindCSS</p>
             </div>
             <div
               data-aos="fade-right"
@@ -62,7 +62,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={jsPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
-              <p className="md:text-[1vw] text-[2vw]">JAVASCRIPT</p>
+              <p className="md:text-sm text-xs">JAVASCRIPT</p>
             </div>
             <div
               data-aos="fade-left"
@@ -70,7 +70,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={reactPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
-              <p className="md:text-[1vw] text-[2vw]">ReactJS</p>
+              <p className="md:text-sm text-xs">ReactJS</p>
             </div>
             <div
               data-aos="fade-left"
@@ -139,7 +139,7 @@ const SkillSection = () => {
                   </linearGradient>
                 </defs>
               </svg>
-              <p className="md:text-[1vw] text-[2vw]">NextJS</p>
+              <p className="md:text-sm text-xs">NextJS</p>
             </div>
             <div
               data-aos="fade-left"
@@ -147,7 +147,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={phpPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
-              <p className="md:text-[1vw] text-[2vw]">PHP</p>
+              <p className="md:text-sm text-xs">PHP</p>
             </div>
             <div
               data-aos="fade-left"
@@ -155,7 +155,7 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={mysqlPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
-              <p className="md:text-[1vw] text-[2vw]">SQL</p>
+              <p className="md:text-sm text-xs">SQL</p>
             </div>
             <div
               data-aos="fade-left"
@@ -163,11 +163,11 @@ const SkillSection = () => {
               className="flex flex-col gap-[1vw] items-center justify-end"
             >
               <img src={gitPic} alt="icon" className="md:w-[2.5vw] w-[5vw]" />
-              <p className="md:text-[1vw] text-[2vw]">Git</p>
+              <p className="md:text-sm text-xs">Git</p>
             </div>
           </div>
           <div className="flex gap-[1vw] flex-col md:mb-[15vh] mb-[3vh] md:p-0 p-[2vw]">
-            <h1 className="md:text-[1.5vw] text-[3vw]">Soft Skills</h1>
+            <h1 className="md:text-sm text-xs font-bold">Soft Skills</h1>
             <div className="flex flex-wrap gap-[3vw]">
               {softSkill.map((el, idx) => {
                 return (
@@ -183,7 +183,7 @@ const SkillSection = () => {
                         fill="white"
                       />
                     </svg>
-                    <p className="md:text-[1.2vw] text-[2.4vw]">{el}</p>
+                    <p className="md:text-sm text-xs">{el}</p>
                   </div>
                 );
               })}

@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
           className="w-full h-60 object-cover object-center rounded-md"
         />
       </div>
-      <div className="flex flex-col gap-[0.5vw] mt-auto">
+      <div className="flex flex-col gap-2 mt-auto">
         <h2 className="font-bold md:text-sm text-sm">{project.title}</h2>
         <p className="md:text-sm text-xs">{project.description}</p>
         <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-sm text-xs word-spacing">

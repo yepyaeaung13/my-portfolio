@@ -8,7 +8,7 @@ const Contact = () => {
         className="mt-auto flex flex-col gap-[2vh] py-[2vh] text-white"
         id="contact"
       >
-        <h1 className="text-center md:text-md text-md font-serif font-bold md:my-[10vh] my-[2vh]">
+        <h1 className="text-center md:text-md text-sm font-serif font-bold md:my-[10vh] my-[2vh]">
           CONTACT
         </h1>
         <div className="flex gap-5 justify-between">

@@ -88,10 +88,10 @@ const AboutMe = () => {
           data-aos-duration="3000"
           className="text-white px-5 flex flex-col gap-5"
         >
-          <h1 className="font-bold md:text-lg text-sm tracking-widest font-serif">
+          <h1 className="font-bold md:text-md text-sm tracking-widest font-serif">
             ABOUT ME
           </h1>
-          <p className="md:text-lg text-xs" style={{ lineHeight: 2 }}>
+          <p className="md:text-sm text-xs" style={{ lineHeight: 2 }}>
             Hello!, I'm a passionate Front-End Developer with expertise in HTML,
             CSS, Tailwind CSS, Bootstrap, JavaScript, and ReactJS. With a keen
             eye for design and a love for clean, efficient code, I bring a
@@ -105,14 +105,14 @@ const AboutMe = () => {
           <div className="flex gap-[2vw]">
             <a
               href="#contact"
-              className="text-white font-bold md:text-[1vw] text-[2vw] duration active:scale-95 bg-blue-700/70 bg-gradient-to-r from-blue-700/70 to-indigo-950/40 px-[2vw] py-[1vh] rounded-[0.4vw]"
+              className="text-white font-bold md:text-sm text-xs duration active:scale-95 bg-blue-700/70 bg-gradient-to-r from-blue-700/70 to-indigo-950/40 px-[2vw] py-[1vh] rounded-[0.4vw]"
             >
               HIRE ME
             </a>
             <a
               href={resume}
               target="_blank"
-              className="text-white font-bold md:text-[1vw] text-[2vw] border-[0.1vw] duration active:scale-95 border-blue-700/70 px-[2vw] py-[1vh] rounded-[0.4vw]"
+              className="text-white font-bold md:text-sm text-xs border-[0.1vw] duration active:scale-95 border-blue-700/70 px-[2vw] py-[1vh] rounded-[0.4vw]"
             >
               RESUME
             </a>
