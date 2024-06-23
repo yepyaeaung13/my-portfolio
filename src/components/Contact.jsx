@@ -83,13 +83,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <footer className="flex justify-between items-center border-t pt-5">
+        <footer className="flex md:flex-row flex-col-reverse gap-2 justify-between items-center border-t pt-5">
           <div>
-            <p className="md:text-sm text-[10px]">
+            <p className="text-sm">
               &copy; 2024 - Ye Pyae Aung, All rights reserved
             </p>
           </div>
-          <div className="flex items-center md:gap-5 gap-3">
+          <div className="flex items-center gap-5">
             <a
               className=""
               target="_blank"
@@ -98,7 +98,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
-                className="md:w-4 w-2"
+                className="md:w-4 w-3"
               >
                 <path
                   d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
@@ -114,7 +114,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="md:w-6 w-2"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -131,7 +131,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
-                className="md:w-6 w-2"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
@@ -148,7 +148,7 @@ const Contact = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
-                className="md:w-6 w-2"
+                className="md:w-6 w-4"
               >
                 {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
                 <path
