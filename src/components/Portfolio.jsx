@@ -5,11 +5,20 @@ import invoiceAppPhoto from "/invoiceapp.png";
 import blogPhoto from "/blog.png";
 import eShopPhoto from "/e-shop.png";
 import shoppingPhoto from "/shoppingcart.png";
-import hotelPhoto from "/hotel.jpg";
 import Container from "./Container";
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([
+    {
+      id: Date.now(),
+      title: "Music App",
+      description:
+        "Features - create Account, login account, password validation, add songs to playlist and liked, delete songs from playlist and liked, listen songs",
+      tech: "HTML TailwindCSS NextJS PostgreSQL Firebase Storage",
+      code: "https://github.com/yepyaeaung13/nextjs-music-app",
+      url: "https://nextjs-music-app-w7op.vercel.app/",
+      img: "/music-app.png",
+    },
     {
       id: Date.now(),
       title: "To Do App",
