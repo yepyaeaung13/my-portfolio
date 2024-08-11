@@ -14,7 +14,7 @@ const Portfolio = () => {
       title: "Music App",
       description:
         "Features - create Account, login account, password validation, add songs to playlist and liked, delete songs from playlist and liked, listen songs",
-      tech: "HTML TailwindCSS NextJS PostgreSQL Firebase Storage",
+      tech: "HTML TailwindCSS NextJS PostgreSQL Firebase-Storage",
       code: "https://github.com/yepyaeaung13/nextjs-music-app",
       url: "https://nextjs-music-app-w7op.vercel.app/",
       img: "/music-app.png",
@@ -51,7 +51,7 @@ const Portfolio = () => {
     },
     {
       id: Date.now(),
-      title: "e shop",
+      title: "E shop",
       description:
         "Features - used fakestore api, home page,products page contact page and cart page - add items,delete items,update qty,summary cart lists",
       tech: "HTML TailwindCSS nextJS",
@@ -61,7 +61,7 @@ const Portfolio = () => {
     },
     {
       id: Date.now(),
-      title: "shopping",
+      title: "Shopping Cart",
       description:
         "Features - filter items, cart drawer, add items, delete items, update qty",
       tech: "HTML TailwindCSS VanillaJS",
@@ -83,13 +83,13 @@ const Portfolio = () => {
   return (
     <Container>
       <div
-        className="text-white flex flex-col md:mb-[15vh] mb-[5vh] gap-[3vw] md:p-0 px-[2vw]"
+        className="text-white flex flex-col md:px-16 px-2 py-5 gap-5"
         id="portfolio"
       >
-        <h1 className="text-center md:text-md text-sm md:my-[10vh] my-[3vh] font-bold font-serif">
+        <h1 className="text-center font-bold text-lg tracking-widest font-serif">
           PORTFOLIO
         </h1>
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-[-10vh] md:gap-[2vw] gap-[4vw]">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
           {projects.map((project, idx) => {
             return <ProjectCard project={project} key={idx} />;
           })}

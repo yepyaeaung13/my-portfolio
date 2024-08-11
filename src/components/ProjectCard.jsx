@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="flex flex-col gap-[1vw] border border-zinc-700 rounded-[0.5vw] p-[1vw]"
+      className="flex flex-col gap-5 p-2 border border-zinc-700 rounded-md"
     >
       <div className="flex justify-center">
         <img
@@ -13,22 +13,19 @@ const ProjectCard = ({ project }) => {
           className="w-full h-60 object-cover object-center rounded-md"
         />
       </div>
-      <div className="flex flex-col gap-2 mt-auto">
-        <h2 className="font-bold md:text-sm text-sm">{project.title}</h2>
-        <p className="md:text-sm text-xs">{project.description}</p>
-        <p className="mb-[1.5vw] mt-[0.3vw] text-zinc-200 font-bold md:text-sm text-xs word-spacing">
-          {project.tech}
-        </p>
-        <div className="flex md:gap-[1.5vw] gap-[3vw]">
+      <div className="flex flex-col gap-3 mt-auto">
+        <h2 className="font-bold">{project.title}</h2>
+        <p className="font-medium word-spacing">{project.tech}</p>
+        <div className="flex gap-5">
           <a
             href={project.code}
             target="_blank"
-            className="flex items-center md:gap-[0.3vw] gap-[1vw] md:text-[1vw] text-[2vw] hover:underline"
+            className="flex items-center gap-2 hover:underline"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
-              className="md:w-4 w-3"
+              className="size-6"
             >
               {/*!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
               <path
@@ -36,14 +33,10 @@ const ProjectCard = ({ project }) => {
                 fill="#ffffff"
               />
             </svg>
-            <span className="md:text-md text-xs">Code</span>
+            <span className="">Code</span>
           </a>
-          <a
-            href={project.url}
-            className="md:text-sm text-xs hover:underline"
-            target="_blank"
-          >
-            See Demo {">>"}
+          <a href={project.url} className="hover:underline" target="_blank">
+            See Demo
           </a>
         </div>
       </div>
