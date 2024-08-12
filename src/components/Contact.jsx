@@ -11,7 +11,7 @@ const Contact = () => {
         <h1 className="text-center font-bold text-lg tracking-widest font-serif">
           CONTACT
         </h1>
-        <div className="flex gap-5 justify-between">
+        <div className="flex gap-5 justify-between px-2">
           <div className="flex flex-col gap-5">
             <h1 className="">Drop Me a Message</h1>
             <p className="tracking-widest italic">

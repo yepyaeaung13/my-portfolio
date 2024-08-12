@@ -17,7 +17,7 @@ const HeroSection = () => {
                 // Same substring at the start will only be typed once, initially
                 "",
                 2000,
-                "FRONTEND WEB DEVELOPER",
+                "FRONTEND DEVELOPER",
                 2000,
                 "WEB DEVELOPER",
                 5000,

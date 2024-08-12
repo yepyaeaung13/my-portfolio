@@ -35,8 +35,8 @@ function App() {
   };
   return (
     <>
-      <div className="h-screen flex flex-col gap-48">
-        <div className="bg-zinc-800 px-16">
+      <div className="h-screen w-full relative flex flex-col gap-48">
+        <div className="bg-zinc-800 md:px-16 px-2">
           <Heading />
         </div>
         <HeroSection />

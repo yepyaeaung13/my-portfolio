@@ -161,7 +161,7 @@ const SkillSection = () => {
             <p className="">Git</p>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 px-2">
           <h1 className="font-bold">Soft Skills</h1>
           <div className="flex flex-wrap md:gap-10 gap-3">
             {softSkill.map((el, idx) => {
