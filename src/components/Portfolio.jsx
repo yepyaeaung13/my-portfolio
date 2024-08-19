@@ -5,9 +5,12 @@ import invoiceAppPhoto from "/invoiceapp.png";
 import blogPhoto from "/blog.png";
 import eShopPhoto from "/e-shop.png";
 import shoppingPhoto from "/shoppingcart.png";
+import ip from "/ip.png";
 import Container from "./Container";
+import FreelanceProject from "./FreelanceProject";
 
 const Portfolio = () => {
+  const [active, setActive] = useState(true);
   const [projects, setProjects] = useState([
     {
       id: Date.now(),
@@ -80,6 +83,25 @@ const Portfolio = () => {
       img: "/hotel-cover.jpg",
     },
   ]);
+  const [freelanceProjects, setFreelanceProjects] = useState([
+    {
+      id: Date.now(),
+      title: "Intelligence Power Co.Ltd",
+      description:
+        "Features - create Account, login account, password validation, add songs to playlist and liked, delete songs from playlist and liked, listen songs",
+      tech: "HTML TailwindCSS JS PHP MySQL",
+      code: "https://github.com/yepyaeaung13/ip-php",
+      url: "https://www.intelligencepower.net",
+      img: "ip.png",
+    },
+  ]);
+
+  const activeHandler = () => {
+    setActive(true);
+  };
+  const inactiveHandler = () => {
+    setActive(false);
+  };
   return (
     <Container>
       <div
@@ -89,10 +111,48 @@ const Portfolio = () => {
         <h1 className="text-center font-bold text-lg tracking-widest font-serif">
           PORTFOLIO
         </h1>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
-          {projects.map((project, idx) => {
-            return <ProjectCard project={project} key={idx} />;
-          })}
+
+        <div className="flex flex-col gap-5">
+          <nav className="w-full flex justify-center gap-2">
+            <button
+              onClick={activeHandler}
+              className={`px-5 py-1 border rounded-md hover:bg-white hover:text-black duration-150 ${
+                active ? "bg-white text-black" : ""
+              }`}
+            >
+              Personal Projects
+            </button>
+            <button
+              onClick={inactiveHandler}
+              className={`px-5 py-1 border rounded-md hover:bg-white hover:text-black duration-150 ${
+                !active ? "bg-white text-black" : ""
+              }`}
+            >
+              Freelance Projects
+            </button>
+          </nav>
+          <div
+            className={`grid md:grid-cols-3 grid-cols-1 gap-5 ${
+              active ? "block" : "hidden"
+            }`}
+          >
+            {projects.map((project, idx) => {
+              return <ProjectCard project={project} key={idx} />;
+            })}
+          </div>
+          <div>
+            <div
+              className={`grid md:grid-cols-3 grid-cols-1 gap-5 ${
+                !active ? "" : "hidden"
+              }`}
+            >
+              {freelanceProjects.map((freelanceProject, idx) => {
+                return (
+                  <FreelanceProject project={freelanceProject} key={idx} />
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </Container>
