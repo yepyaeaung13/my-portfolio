@@ -14,6 +14,15 @@ const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
       id: Date.now(),
+      title: "FTTH Subscriptions & Invoice",
+      description: "Features - ",
+      tech: "HTML TailwindCSS Jquery PHP MySQL",
+      code: "https://github.com/yepyaeaung13/ftth-invoice-php",
+      url: "http://ftth-invoice.infinityfreeapp.com/login",
+      img: "/ftth-invoice.png",
+    },
+    {
+      id: Date.now(),
       title: "Music App",
       description:
         "Features - create Account, login account, password validation, add songs to playlist and liked, delete songs from playlist and liked, listen songs",
