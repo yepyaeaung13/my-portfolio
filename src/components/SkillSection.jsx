@@ -27,56 +27,44 @@ const SkillSection = () => {
           SKILLS
         </h1>
         <div className="grid md:grid-cols-9 grid-cols-2 gap-5">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={htmlPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img
+              src={htmlPic}
+              alt="icon"
+              className="md:w-8 w-6 animate-pulse"
+            />
             <p className="">HTML5</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={cssPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img src={cssPic} alt="icon" className="md:w-8 w-6 animate-pulse" />
             <p className="">CSS3</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={tailwindcssPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img
+              src={tailwindcssPic}
+              alt="icon"
+              className="md:w-8 w-6 animate-pulse"
+            />
             <p className="">TailwindCSS</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={jsPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img src={jsPic} alt="icon" className="md:w-8 w-6 animate-pulse" />
             <p className="">JAVASCRIPT</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={reactPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img
+              src={reactPic}
+              alt="icon"
+              className="md:w-8 w-6 animate-pulse"
+            />
             <p className="">ReactJS</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
+          <div className="flex flex-col gap-1 items-center justify-end">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 180 180"
               width={50}
-              className="md:w-8 w-6"
+              className="md:w-8 w-6 animate-pulse"
             >
               <mask
                 height={180}
@@ -136,28 +124,20 @@ const SkillSection = () => {
             </svg>
             <p className="">NextJS</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={phpPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img src={phpPic} alt="icon" className="md:w-8 w-6 animate-pulse" />
             <p className="">PHP</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={mysqlPic} alt="icon" className="md:w-[3vw] w-[6vw]" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img
+              src={mysqlPic}
+              alt="icon"
+              className="md:w-8 w-6 animate-pulse"
+            />
             <p className="">SQL</p>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="flex flex-col gap-1 items-center justify-end"
-          >
-            <img src={gitPic} alt="icon" className="md:w-8 w-6" />
+          <div className="flex flex-col gap-1 items-center justify-end">
+            <img src={gitPic} alt="icon" className="md:w-8 w-6 animate-pulse" />
             <p className="">Git</p>
           </div>
         </div>

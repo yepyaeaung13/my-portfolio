@@ -26,7 +26,7 @@ const Contact = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-5"
+                    className="size-5 animate-bounce"
                   >
                     <path
                       strokeLinecap="round"
@@ -45,7 +45,7 @@ const Contact = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-5"
+                    className="size-5 animate-bounce"
                   >
                     <path
                       strokeLinecap="round"
